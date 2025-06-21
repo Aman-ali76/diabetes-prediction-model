@@ -24,8 +24,5 @@ class DisplayArea:
                 "<p style='color:#d3d3d3;'>Use the sidebar to input patient details and predict diabetes outcome using a pre-trained ML model.</p>", 
                 unsafe_allow_html=True
             )
-        else:
-            st.markdown("## Welcome to the Diabetes Prediction App")
-            st.markdown(
-                "Use the sidebar to input patient details and predict diabetes outcome using a pre-trained ML model."
-            )
+        
+            

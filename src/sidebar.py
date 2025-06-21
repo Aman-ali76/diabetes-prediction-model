@@ -15,11 +15,7 @@ class Sidebar:
         Displays the sidebar content of the app.
         This includes a theme toggle and instructions for the user.
         """
-        st.sidebar.title("App Settings")
-        
-
         # Sidebar Description
-        st.sidebar.markdown("---")
         st.sidebar.markdown("**Instructions:**")
         st.sidebar.markdown("""
         - Enter the medical details in the prediction section.
