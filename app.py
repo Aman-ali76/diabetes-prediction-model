@@ -1,7 +1,6 @@
 import streamlit as st
 from src.header import Header
 from src.sidebar import Sidebar
-from src.display_area import DisplayArea
 from src.prediction import Prediction
 from src.result import Result
 
@@ -16,7 +15,6 @@ def main():
     # Initialize components
     header = Header()
     sidebar = Sidebar()
-    display_area = DisplayArea()
     prediction = Prediction("model/diabetes_model.pkl")
     result = Result()
 
@@ -25,9 +23,6 @@ def main():
 
     # Display sidebar (no theme selection needed)
     sidebar.display()
-
-    # Display main content
-    display_area.show()
 
     # Get user input and make prediction
     input_data = prediction.get_user_input()
