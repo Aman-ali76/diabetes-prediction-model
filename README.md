@@ -143,8 +143,8 @@ diabetes-predict-model/
 ## 👨‍💻 Developed By
 
 <p>
-<b>Aman Ali</b>
-BS Artificial Intelligence – 2nd Semester
+<b>Aman Ali</b><br>
+BS Artificial Intelligence – 2nd Semester<br>
 Superior University, Pakistan
 </p>
 
